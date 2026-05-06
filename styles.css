@@ -1,0 +1,28 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  transition: background-color 0.5s, color 0.5s;
+}
+
+body.light-mode {
+  background-color: #B7C9E2; /* Bootstrap light background */
+  color: #212529; /* Bootstrap dark text */
+}
+
+body.dark-mode {
+  background-color: #343a40; /* Bootstrap dark background */
+  color: #f8f9fa; /* Bootstrap light text */
+}
+
+#dark-mode-toggle {
+  border: none;
+  background: none;
+  cursor: pointer;
+  font-size: 24px;
+}
+
+h1 {
+  font-weight: bold;
+}

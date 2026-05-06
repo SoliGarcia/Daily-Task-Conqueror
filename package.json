@@ -1,0 +1,9 @@
+{
+  "scripts": {
+    "start": "servor --reload"
+  },
+  "dependencies": {
+    "@stackblitz/sdk": "^1.11.0",
+    "servor": "^4.0.2"
+  }
+}
